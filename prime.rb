@@ -1,4 +1,4 @@
-def is_prime?(num)
+def prime?(num)
 (2..num/2).none?{|i| num % i == 0}
    if num < 2
      return false
