@@ -12,15 +12,4 @@ def prime?(num)
   end
   return true
 end
-puts prime?(4)
-def nth_prime(num)
-  prime_idx = 0
-  count = -1
-  while prime_idx < num
-    count += 1
-    if is_prime?(count) == true
-      prime_idx += 1
-    end
-  end
-  return count
-end
+
