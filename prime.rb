@@ -12,7 +12,7 @@ def prime?(num)
   end
   return true
 end
-puts is_prime?(4)
+puts prime?(4)
 def nth_prime(num)
   prime_idx = 0
   count = -1
